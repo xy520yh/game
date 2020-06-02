@@ -1,0 +1,102 @@
+@charset "utf-8";
+*{padding:0; margin:0;}
+body,html{width:100%; height:100%; font-family:'微软雅黑'; font-size:12px;}
+a{color:#000; text-decoration:none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
+img{vertical-align:top;}
+li{list-style:none;}
+h1,h2,h3,h4,h5,h6,b,strong{font-weight:normal; font-size:100%;}
+i,em{font-style:normal;}
+.clearfix:after{display:block; clear:both; content:'';}
+.clearfix{zoom:1;}
+a img{border:none;}
+.fl{float:left;}
+.fr{float:right;}
+body{width:640px; height:3744px; background-color:#120101; margin:0 auto; max-width:640px; padding-bottom:80px;}
+.header{width:640px; height:725px; position:relative;}
+.header-info-wrap{margin-left:28px; position:absolute; top:564px; left:14px;}
+.header-info-wrap img{float:left; margin-right:18px;}
+.header-info{float:left;}
+.header-info h1{font-size:40px; font-weight:bold; color:#f3cc6f; margin-bottom:2px; padding-top:16px;}
+.mouth{font-size:25px; color:#f3cc6f;}
+.fuli{width:640px; height:929px; background:url(../img/bg3.jpg?jv=1.0.20170710) no-repeat;}
+.fuli h3{width:605px; margin:0 auto; padding-top:60px; margin-bottom:58px;}
+.fuli h4{margin-left:40px; margin-bottom:30px;}
+.fuli p{font-size:22px; color:#fdf0e5; line-height:32px; width:556px; margin:0 auto;}
+.fuli .last_p{margin-bottom:10px;}
+.fuli-img{overflow:hidden; width:564px; margin:0 auto;}
+.fuli-img li{width:126px; float:left; color:#fdf0e5; font-size:14px; margin-right:20px; margin-bottom:22px;}
+.fuli-img li h5{text-align:center; font-size:15px;}
+.fuli-img li b{color:#fddc5c;}
+.fuli-img li img{display:block; margin-bottom:5px;}
+.fuli-img .last{margin-right:0px;}
+.game_roles{width:640px; height:722px; background:url(../img/bg7.jpg?jv=1.0.20170728) no-repeat; overflow:hidden; position:relative;}
+.game_roles .title{width:470px; height:29px; margin:0 auto; padding-top:56px;}
+.game_roles .intro{width:640px; text-align:center; font-size:18px; color:#efbe63; padding-top:10px; letter-spacing:4px; position:absolute; left:0; top:90px;}
+.role_info{position:absolute; top:16px; left:39px; width:266px; opacity:0; -webkit-transform:translate(-100%, 0); transform:translate(-100%, 0); -webkit-transition:all 0.3s; transition:all 0.3s; z-index:99;}
+.role_info .tit{display:block;}
+.role_info .text{width:266px; font-size:18px; line-height:30px; text-align:justify; color:#dcb981; margin-bottom:6px;}
+.role_info h3{color:#dcb981; font-size:18px; width:210px; height:53px; background:url(../img/star_bg.png?jv=1.0.20170728) no-repeat; padding-top:17px; overflow:hidden; padding-left:30px;}
+.role_info h3 span{float:left;}
+.role_info h3 img{float:left; padding:7px 2px 0;}
+.role_img{position:relative; top:0; right:0; opacity:0; -webkit-transform:translate(100%, 0); transform: translate(100%, 0); -webkit-transition:all 0.3s; transition:all 0.3s;}
+.role_img2{position:relative; top:55px; right:-226px; opacity:0; -webkit-transform:translate(100%, 0); transform: translate(100%, 0); -webkit-transition:all 0.3s; transition:all 0.3s;}
+.role_img3{position:relative; top:30px; right:-142px; opacity:0; -webkit-transform:translate(100%, 0); transform: translate(100%, 0); -webkit-transition:all 0.3s; transition:all 0.3s;}
+.game_roles .swiper_dock_list{overflow:hidden; width:262px; height:81px; position:absolute; top:583px; left:40px; background:url(../img/paging.png?jv=1.0.20170728) no-repeat; padding-left:4px; z-index:9999;}
+.game_roles .swiper_dock_list li{float:left; width:78px; height:68px; margin:7px 4px 0;}
+.game_roles .swiper_dock_list li img{display:none;}
+.game_roles .swiper_dock_list li .icon.on{display:block;}
+.game_roles .swiper-slide-active .role_info{-webkit-transform: translate(0, 0); transform: translate(0, 0); -webkit-transition: all 0.3s; transition: all 0.3s; opacity:1;}
+.game_roles .swiper-slide-active .role_img{opacity:1; -webkit-transform:translate(26px, 0); transform: translate(26px, 0); -webkit-transition: all 0.3s; transition: all 0.3s;}
+.animal_section{width:640px; height:778px; background:url(../img/bg8.jpg?jv=1.0.20170728) no-repeat; overflow:hidden; position:relative;}
+.animal_section .title{width:473px; height:30px; margin:0 auto; padding-top:62px; margin-bottom:4px;}
+.animal_section .intro{width:640px; text-align:center; font-size:18px; color:#efbe63; padding-top:10px; letter-spacing:4px; margin-bottom:34px;}
+.animal_section .animal_name{position:absolute; right:62px; top:30px;}
+.animal_section .animal1{display:block; margin:0 auto;}
+.animal_section .animal2{display:block; margin:0 auto; margin-top:30px;}
+.animal_section .animal3{display:block; margin-top:-12px; margin-left:4px;}
+.animal_section .swiper_dock_list{overflow:hidden; width:260px; height:81px; background:url(../img/zuoji_icon.png?jv=1.0.20170728) no-repeat; z-index:9999; position:absolute; top:637px; left:50%; margin-left:-132px; padding-left:4px;}
+.animal_section .swiper_dock_list li{float:left; width:78px; height:68px; margin:7px 4px 0;}
+.animal_section .swiper_dock_list li:nth-child(2){margin-left:3px;}
+.animal_section .swiper_dock_list li:nth-child(3){margin-left:3px;}
+.animal_section .swiper_dock_list li img{display:none;}
+.animal_section .swiper_dock_list li .icon.on{display:block;}
+.clothes_section{width:640px; height:815px; background:url(../img/bg9.jpg?jv=1.0.20170728) no-repeat; overflow:hidden; position:relative;}
+.clothes_section .title{width:473px; height:29px; margin:0 auto; padding-top:62px; margin-bottom:4px;}
+.clothes_section .intro{width:640px; text-align:center; font-size:18px; color:#efbe63; padding-top:10px; letter-spacing:4px; margin-bottom:34px;}
+.clothes_section .shizhuang1{display:block; margin-left:54px;}
+.clothes_section .shizhuang2{display:block; margin-left:50px; margin-top:-117px;}
+.clothes_section .shizhuang3{display:block; margin-left:47px; margin-top:-60px;}
+.clothes_section .swiper_dock_list{overflow:hidden; width:260px; height:81px; background:url(../img/shizhuang.png?jv=1.0.20170728) no-repeat; z-index:9999; position:absolute; top:672px; left:50%; margin-left:-132px; padding-left:4px;}
+.clothes_section .swiper_dock_list li{float:left; width:78px; height:68px; margin:7px 4px 0;}
+.clothes_section .swiper_dock_list li:nth-child(2){margin-left:3px;}
+.clothes_section .swiper_dock_list li:nth-child(3){margin-left:3px;}
+.clothes_section .swiper_dock_list li img{display:none;}
+.clothes_section .swiper_dock_list li .icon.on{display:block;}
+.video-info{width:640px; height:530px; margin:0 auto; background:url(../img/bg4.jpg?jv=1.0.20170710) no-repeat;}
+.video-info h3{width:611px; margin:0 auto; padding-top:80px; margin-bottom:28px;}
+.video{width:563px; height:330px; background:url(../img/videobg.png?jv=1.0.20170710) no-repeat; margin:0 auto;}
+#video-play{width:563px; height:316px; display:none; position:fixed; top:50%; left:50%; margin-left:-281px; margin-top:-158px; z-index:9999999;}
+#video-play.on{display:block;}
+.opa{width:100%; height:100%; background:rgba(0,0,0,0.8); position:fixed; top:0; left:0; display:none; z-index:999999;}
+.opa.on{display:block;}
+.img-info{width:640px; height:579px; background:url(../img/bg5.jpg?jv=1.0.20170710) no-repeat;}
+.img-wrap h3{width:582px; margin:0 auto; padding-top:56px; margin-bottom:34px;}
+.dev-wrap{width:640px; height:786px; background:url(../img/bg6.jpg?jv=1.0.20170710) no-repeat;}
+.dev-wrap h3{width:542px; margin:0 auto; padding-top:60px; margin-bottom:105px;}
+.dev-wrap li{ margin-bottom:21px; width:500px; overflow:hidden;}
+.dev-list{width:500px; margin:0 auto;}
+.dev-list img{float:left;}
+.dev-info{float:right; width:326px;}
+.dev-info a{color:#f8de7c; font-size:22px; line-height:26px; display:block; margin-bottom:6px; padding-top:15px;}
+.dev-info p{color:#fef6e4; font-size:18px;}
+.fuli .arrow_txt{width:572px; height:32px; background:url(../img/arrow_left.png) no-repeat 10px center; box-sizing:border-box; padding-left:34px; color:#fdf0e5; font-size:22px; margin-bottom:2px;}
+.fuli .arrow_txt2{margin-bottom:13px; margin-top:28px;}
+.fuli .title2{margin:10px 0px 10px 40px;}
+.wrap{width:640px;}
+.img_box{width:600px; margin:0 auto; overflow:auto;}
+.img_box img{width:200px;}
+.img_box ul{width:1020px; height:300px;}
+.img_box ul li{float:left; margin-right:4px;}
+.swiper{display:none; width:350px; height:622px; position:fixed; left:50%; margin-left:-170px; top:50%; margin-top:-311px; z-index:9999999;}
+.swiper img{width:350px; height:622px;}
+.alert_bg2{width:100%; height:100%; background:rgba(0,0,0,.7); position:fixed; left:0px; top:0px; display:none; z-index:999999;}
